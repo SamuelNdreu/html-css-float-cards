@@ -2,10 +2,12 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 
 body{
-    background-color: lightblue;
+    background: rgb(61,77,177);
+    background: linear-gradient(90deg, rgba(61,77,177,1) 0%, rgba(111,196,141,1) 77%);    
 }
 
 header#header-logo h1{
@@ -27,12 +29,17 @@ header#header-logo h1{
 }
 #header-logo{
     padding: 1rem;
-    background-color: white;
+    background: rgb(61,77,177);
+    background: linear-gradient(90deg, rgba(61,77,177,1) 0%, rgba(111,196,141,1) 77%);
+    
 }
 
 main{
     width: 80%;
-    margin: 0 auto;}
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
 
 .container{
     width: 1203px;
@@ -49,35 +56,38 @@ h1.title{
     padding-top: .2rem;
     padding-bottom: 2rem;
     font-family: 'Fredoka', sans-serif;
+    text-shadow: 2px 2px 5px rgb(79, 74, 74);
 }
 
 #Lorem{
     color:black;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
     font-family: 'Fredoka', sans-serif;
     
+    
+    
 }
 
-.clearfix::after{
-    content:"";
-    display: table;
-    clear: both;
-}
 
 
 article.box{
     float:left;
-    height: 100px;
-    width: calc(100% / 4);
-    background-color: black;
-    box-shadow: 12px 12px 2px 1px grey;
-    color: black;
-    margin:5rem 0 0 5rem;
-
+    width: calc((100% / 3) - 1rem);
+    margin: 1.7rem 0.5rem;
+    background-color: rgb(185, 185, 185);
+    box-shadow: 10px 5px 5px #9e9da4;
+    color: rgb(107, 107, 112);
+    border-radius: 10px 10px 10px 10px;
 
 }
+
+.box:hover{
+    box-shadow: 15px 10px 10px rgb(38, 106, 174);
+
+}
+
 .id-pictures{
     height: 100px;
     width: auto;
@@ -85,6 +95,9 @@ article.box{
 }
 
 .card-text{
+    
+    
+    
     padding-top: 1rem;
     padding-left: 7rem;
     font-weight: 600;
