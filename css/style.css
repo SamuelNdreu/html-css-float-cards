@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 1203px;
+    height: 708px;
+    margin: 3rem;
+}
+
+h1.title{
+    color: #e5316f;
+    text-align: center;
+    padding-top: .2rem;
+    padding-bottom: 2rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+#Lorem{
+    color:rgb (0,0,0);
+    font-size: 20px;
+    text-align: center;
+    font: 'Fredoka One',cursive;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.box{
+    height: 100px;
+    width: 300px;
+    margin:5rem 0 0 5rem;
+    background-color: black;
+    box-shadow: 12px 12px 2px 1px grey;
+    color: black;
+}
+
+article.box{
+    float:left
+
+
+}
+.id-pictures{
+    height: 100px;
+    width: auto;
+}
+
+p a {
+    float: left;
+}
